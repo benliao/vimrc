@@ -19,6 +19,7 @@ call plug#begin('~/.config/vim_plug/plugged')
     Plug 'racer-rust/vim-racer'
     Plug 'jiangmiao/auto-pairs'
     Plug 'zivyangll/git-blame.vim'
+    Plug 'enricobacis/vim-airline-clock'
 call plug#end()
 
 filetype plugin on
