@@ -18,6 +18,7 @@ call plug#begin('~/.config/vim_plug/plugged')
     Plug 'rust-lang/rust.vim'
     Plug 'racer-rust/vim-racer'
     Plug 'jiangmiao/auto-pairs'
+    Plug 'zivyangll/git-blame.vim'
 call plug#end()
 
 filetype plugin on
@@ -356,3 +357,5 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 let g:rustfmt_autosave = 1
+
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
