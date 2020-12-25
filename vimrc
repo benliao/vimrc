@@ -17,6 +17,7 @@ call plug#begin('~/.config/vim_plug/plugged')
     Plug 'majutsushi/tagbar'
     Plug 'rust-lang/rust.vim'
     Plug 'racer-rust/vim-racer'
+    Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 filetype plugin on
