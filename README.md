@@ -1,3 +1,4 @@
+# A vimrc file for coding rust lang in vim
 # Step
 - Clone this repository.
 - Copy vimrc to ~/.vimrc
@@ -19,10 +20,6 @@ cargo +nightly install racer
 ```
 - coc rust analyzer
 ```bash
-$ curl -L https://github.com/rust-analyzer/rust-analyzer/releases/latest/download/rust-analyzer-linux -o ~/.local/bin/rust-analyzer
-$ chmod +x ~/.local/bin/rust-analyzer
-```
-```
 :CocInstall coc-rust-analyzer
 ```
-
+- Restart vim and choos Y when promopted to install rust analyzer.
