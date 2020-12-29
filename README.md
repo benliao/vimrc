@@ -22,4 +22,4 @@ cargo +nightly install racer
 ```bash
 :CocInstall coc-rust-analyzer
 ```
-- Restart vim and choos Y when promopted to install rust analyzer.
+- Restart vim and choos Y when prompted to install rust analyzer.
