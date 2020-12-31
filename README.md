@@ -1,5 +1,10 @@
 # A vimrc file for coding rust lang in vim
 # Step
+- Download vim-plug
+```shell
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+``` 
 - Clone this repository.
 - Copy vimrc to ~/.vimrc
 - start vim, ignore erros and run :PlugInstall
